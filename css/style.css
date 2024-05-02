@@ -1,0 +1,95 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.photo{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.continer{
+    background-color: hsl(0, 0%, 12%);
+    padding: 2.5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+
+.p-name{
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+}
+
+span{
+    color: hsl(75, 94%, 57%);
+    font-size: 1rem;
+}
+
+.p{
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+}
+
+.card a {
+    margin: 1rem 0;
+    display: block;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    transition: all .3s;
+
+}
+
+.card{
+    width: 110%;
+}
+
+@media screen and (min-width: 1300px) {
+   .card a:hover{
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 8%);
+    }
+
+    .card{
+        width: 120%;
+    }
+
+    .continer{
+        padding: 2rem 4rem;
+    }
+
+    .photo{
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 400, 600, 700;
+}
